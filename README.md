@@ -1,14 +1,14 @@
 # Concrete Data Analysis using Machine Learning
 
-Introduction
+# Introduction
 
 This repository contains a comprehensive analysis of concrete data using various machine learning models. The primary goal is to predict the compressive strength of concrete based on various input features such as cement, blast furnace slag, fly ash, water, superplasticizer, coarse aggregate, and fine aggregate.
 
-Dataset
+# Dataset
 
 The dataset used for this analysis is the Concrete Compressive Strength Dataset available on Kaggle. It contains 1030 instances with 8 input features and 1 output feature.
 
-Data Preprocessing
+# Data Preprocessing
 
 Data Cleaning: The dataset was cleaned to remove any missing values or outliers.
 Feature Scaling: The features were scaled to ensure that they have a similar range, which is important for many machine learning algorithms.
@@ -33,7 +33,7 @@ Results and Discussion
 
 The results of the analysis showed that the Random Forest model performed the best in terms of predicting the compressive strength of concrete. This is likely due to its ability to handle complex relationships between the features and the target variable.
 
-Future Work
+# Future Work
 
 Hyperparameter Tuning: Further improve the performance of the models by tuning their hyperparameters.
 Feature Engineering: Create new features that may be more informative for predicting the compressive strength.
